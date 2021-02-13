@@ -1,0 +1,60 @@
+.background {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+  background: #000000;
+}
+.loadingImage {
+  width: 19.438rem;
+  height: 35.063rem;
+  margin-top: 15rem;
+  margin-left: 4.65rem;
+}
+
+.champTable {
+  width: 35rem;
+  height: 35.063rem;
+  margin-top: 15rem;
+  margin-left: 4.65rem;
+}
+.tableWords {
+  color: aliceblue;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.vertLine {
+  padding: 0px;
+  height: 200px;
+  border-left: 1px solid #ddd;
+}
+
+.spells {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  left: 82rem;
+  bottom: 6rem;
+}
+.spellsText {
+  position: relative;
+  left: 60rem;
+  bottom: 1.6rem;
+  color: white;
+  font-size: 2rem;
+}
